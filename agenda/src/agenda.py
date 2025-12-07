@@ -62,7 +62,7 @@ class Agenda:
 
     def pesquisar(self, expressao: str) -> list:
         resultado = []
-        for contato in self.contatos:ç
+        for contato in self.contatos:
             if expressao in contato.getName():
                 if contato not in resultado:
                     resultado.append(contato)
